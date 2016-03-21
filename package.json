@@ -1,0 +1,65 @@
+{
+  "title": "typescript-demo",
+  "name": "typescript-demo",
+  "description": "TypeScript Demo",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gregoranders/typescript-demo",
+  "author": {
+    "email": "gregor.anders@gmail.com",
+    "name": "Gregor Anders",
+    "url": "https://github.com/gregoranders"
+  },
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/gregoranders/typescript-demo/issues"
+  },
+  "license": "BSD-3-Clause",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gregoranders/typescript-demo.git"
+  },
+  "engines": {
+    "node": "~5.0.0"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.6",
+    "systemjs": "0.19.24",
+    "system-text": "0.1.0",
+    "system-json": "0.1.0",
+    "es6-shim": "0.35.0",
+    "prismjs": "1.4.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "connect-modrewrite": "^0.9.0",
+    "gulp": "3.9.1",
+    "gulp-mocha": "2.2.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "2.2.0",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-typescript":"2.12.1",
+    "gulp-uglify": "1.5.3",
+    "gulp-util": "3.0.7",
+    "gulp-typedoc": "1.2.1",
+    "sass-lint": "1.5.1",
+    "chai": "3.5.0",
+    "mocha": "2.4.5",
+    "mocha-sinon": "1.1.5",
+    "sinon": "1.17.3",
+    "should": "8.2.2",
+    "typescript": "1.8.9",
+    "typings": "0.7.9",
+    "tslint": "3.6.0"
+  },
+  "scripts": {
+    "gulpfile": "tsc -t ES5 -m commonjs gulpfile.ts",
+    "postinstall": "typings install && npm run gulpfile",
+    "build": "gulp build",
+    "serve": "gulp serve",
+    "test": "gulp build::test && mocha --opts build/test/test/mocha.opts build/test/test"
+  }
+}

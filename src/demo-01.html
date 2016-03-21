@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>TypeScript Demo</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+  <link rel="stylesheet" href="vendor/css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <link rel="stylesheet" href="vendor/css/prism-coy.css"/>
+  <link rel="stylesheet" href="vendor/css/prism-line-numbers.css"/>
+  <link rel="stylesheet" href="vendor/css/prism-autolinker.css"/>
+
+  <script src="vendor/js/es6-shim.js"></script>
+  <script src="vendor/js/system.js"></script>
+
+  <script src="vendor/js/prism.js"></script>
+  <script src="vendor/js/prism-line-numbers.js"></script>
+  <script src="vendor/js/prism-autolinker.js"></script>
+  <script src="vendor/js/prism-javascript.js"></script>
+  <script src="vendor/js/prism-typescript.js"></script>
+  <script src="vendor/js/prism-json.js"></script>
+</head>
+
+<body class="container">
+
+<noscript>
+  <div class="deprecation-warning">
+    <h1>Please enable Javascript</h1>
+    <p>Requires your browser to have Javascript enabled.
+      <a href="http://enable-javascript.com" target="_blank">Learn more</a>
+    </p>
+  </div>
+</noscript>
+
+<h1><a href="index.html">TypeScript Demo</a></h1>
+
+<section class="container" id="intro">
+  <h2>TypeScript</h2>
+  <ul>
+    <li>superset of JavaScript - valid JavaScript is valid TypeScript</li>
+    <li>transpiles to ES5 or ES6</li>
+    <li>optional static typing</li>
+    <li>class-based object-oriented programming</li>
+    <li>module loading (amd, system, commonjs)</li>
+    <li>developed and maintained as an open source project by Microsoft on github</li>
+    <li>Anders Hejlsberg, known for Pascal and C# has worked on it</li>
+    <li>lot of ES6 and higher features supported</li>
+  </ul>
+  <button id="types" class="btn btn-sm">types</button>
+  <button id="interfaces" class="btn btn-sm">interfaces</button>
+  <button id="classes" class="btn btn-sm">classes</button>
+  <button id="decorators" class="btn btn-sm">decorators</button>
+  <button id="typeguards" class="btn btn-sm">typeguards</button>
+  <button id="destructuring" class="btn btn-sm">destructuring</button>
+  <pre class="code hidden">
+    <code class="language-typescript line-numbers" id="codeView"></code>
+  </pre>
+</section>
+
+<a href="demo-02.html" class="pull-right" accesskey="n">next</a>
+
+<script src="module/config.js"></script>
+<script>
+  System.import('module/boot.js').catch(console.error.bind(console));
+</script>
+
+</body>
+
+</html>

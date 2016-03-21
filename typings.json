@@ -1,0 +1,33 @@
+{
+  "ambientDependencies": {
+    "browser-sync": "registry:dt/browser-sync#0.0.0+20160130194402",
+    "chai": "registry:dt/chai#3.4.0+20160216071402",
+    "chokidar": "registry:dt/chokidar#1.0.0+20150305075054",
+    "connect-modrewrite": "registry:dt/connect-modrewrite#0.0.0+20150720093447",
+    "express": "registry:dt/express#4.0.0+20160208031452",
+    "gulp": "registry:dt/gulp#3.8.0+20150825164847",
+    "gulp-mocha": "registry:dt/gulp-mocha#0.0.0+20160316155526",
+    "gulp-rename": "registry:dt/gulp-rename#0.0.0+20150129223909",
+    "gulp-sass": "registry:dt/gulp-sass#0.0.0+20151005225507",
+    "gulp-sourcemaps": "registry:dt/gulp-sourcemaps#0.0.0+20150808003554",
+    "gulp-typedoc": "registry:dt/gulp-typedoc#0.0.0+20160316155526",
+    "gulp-typescript": "registry:dt/gulp-typescript#0.0.0+20160122061535",
+    "gulp-uglify": "registry:dt/gulp-uglify#0.0.0+20160106153637",
+    "jquery": "registry:dt/jquery#1.10.0+20160316155526",
+    "micromatch": "registry:dt/micromatch#2.3.7+20160123140905",
+    "mime": "registry:dt/mime#0.0.0+20151204023458",
+    "mocha": "registry:dt/mocha#2.2.5+20151023103246",
+    "node": "registry:dt/node#4.0.0+20160311162451",
+    "orchestrator": "registry:dt/orchestrator#0.0.0+20150821143159",
+    "parse-glob": "registry:dt/parse-glob#3.0.4+20160110125512",
+    "q": "registry:dt/q#0.0.0+20160215162030",
+    "serve-static": "registry:dt/serve-static#0.0.0+20160104095738",
+    "sinon": "registry:dt/sinon#1.16.0+20151027143416",
+    "source-map": "registry:dt/source-map#0.0.0+20151201114758",
+    "systemjs": "registry:dt/systemjs#0.18.4+20150723174523",
+    "uglify-js": "registry:dt/uglify-js#2.6.1+20160106153543"
+  },
+  "dependencies": {
+    "requirejs": "registry:npm/requirejs#2.2.0+20160319062357"
+  }
+}

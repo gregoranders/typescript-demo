@@ -1,0 +1,7 @@
+--require systemjs
+--require es6-shim
+--ui bdd
+--reporter spec
+--timeout 200
+--recursive
+--globals **/*Spec.js
