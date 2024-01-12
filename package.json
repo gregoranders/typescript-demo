@@ -26,7 +26,7 @@
     "typescript"
   ],
   "dependencies": {
-    "bootstrap": "3.3.6",
+    "bootstrap": "3.4.1",
     "systemjs": "0.19.24",
     "system-text": "0.1.0",
     "system-json": "0.1.0",
